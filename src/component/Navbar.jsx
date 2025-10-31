@@ -4,10 +4,10 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar_brand">
-        <Link to="/">Movie App</Link>
+        <Link to="/MovieSearchApp">Movie App</Link>
       </div>
       <div className="navbar_links">
-        <Link to="/" className="nav_link">
+        <Link to="/MovieSearchApp" className="nav_link">
           Home
         </Link>
         <Link to="/favorites" className="nav_link">

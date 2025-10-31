@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <main className="main_content">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/MovieSearchApp" element={<Home />} />
           <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </main>
